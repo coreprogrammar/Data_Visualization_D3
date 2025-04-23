@@ -23,7 +23,92 @@ An interactive and visually engaging dashboard that showcases data from the **FI
 
 ## 📁 Folder Structure
 
-FifaDashboard/ │ ├── index.html # Homepage with chart overview ├── homeAssets/ # Homepage assets │ ├── style.css │ ├── theme.js │ └── world.svg │ ├── data/ │ └── matches.json # Pre-fetched API data (FIFA matches) │ ├── Graphs/ # One directory per chart │ ├── BarChart/ │ │ ├── barChart.html │ │ └── Assets/ │ │ ├── style.css │ │ └── script.js │ ├── PieChart/ │ ├── SankeyDiagram/ │ ├── CirclePack/ │ ├── TreeMap/ │ ├── LineChart/ │ ├── RadarChart/ │ ├── BubbleChart/ │ ├── DonutChart/ │ ├── HorizontalBarChart/ │ ├── HeatmapChart/ │ └── StackedBarChart/ │ └── README.md
+fifa-worldcup-dashboard/
+│
+├── index.html                         # Landing page with chart links and overview
+├── homeAssets/
+│   ├── style.css                      # CSS styles for homepage (light/dark modes, layout, etc.)
+│   ├── script.js                      # JS script for toggles, theme switching, etc.
+│   └── world.svg                      # World map background SVG
+│
+├── data/
+│   └── matches.json                   # Prefetched FIFA match data (from football-data.org)
+│
+├── Graphs/
+│   ├── BarChart/
+│   │   ├── barChart.html
+│   │   ├── Assets/
+│   │   │   ├── style.css
+│   │   │   └── script.js
+│
+│   ├── PieChart/
+│   │   ├── pieChart.html
+│   │   ├── Assets/
+│   │   │   ├── style.css
+│   │   │   └── script.js
+│
+│   ├── SankeyDiagram/
+│   │   ├── sankeyDiagram.html
+│   │   ├── Assets/
+│   │   │   ├── style.css
+│   │   │   └── script.js
+│
+│   ├── CirclePack/
+│   │   ├── circlePack.html
+│   │   ├── Assets/
+│   │   │   ├── style.css
+│   │   │   └── script.js
+│
+│   ├── LineChart/
+│   │   ├── lineChart.html
+│   │   ├── Assets/
+│   │   │   ├── style.css
+│   │   │   └── script.js
+│
+│   ├── TreeMap/
+│   │   ├── treeMap.html
+│   │   ├── Assets/
+│   │   │   ├── style.css
+│   │   │   └── script.js
+│
+│   ├── RadarChart/
+│   │   ├── radarChart.html
+│   │   ├── Assets/
+│   │   │   ├── style.css
+│   │   │   └── script.js
+│
+│   ├── StackedBarChart/
+│   │   ├── stackedBarChart.html
+│   │   ├── Assets/
+│   │   │   ├── style.css
+│   │   │   └── script.js
+│
+│   ├── BubbleChart/
+│   │   ├── bubbleChart.html
+│   │   ├── Assets/
+│   │   │   ├── style.css
+│   │   │   └── script.js
+│
+│   ├── DonutChart/
+│   │   ├── donutChart.html
+│   │   ├── Assets/
+│   │   │   ├── style.css
+│   │   │   └── script.js
+│
+│   ├── HorizontalBarChart/
+│   │   ├── horizontalBarChart.html
+│   │   ├── Assets/
+│   │   │   ├── style.css
+│   │   │   └── script.js
+│
+│   └── HeatmapChart/
+│       ├── heatmapChart.html
+│       ├── Assets/
+│       │   ├── style.css
+│       │   └── script.js
+│
+└── README.md                          # Project overview and instructions
+
 
 ---
 
