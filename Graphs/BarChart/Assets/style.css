@@ -1,0 +1,25 @@
+body {
+    background: #f4f6fa;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  body {
+    background: url('/homeAssets/world.svg') no-repeat center center fixed;
+    background-size: cover;
+    position: relative;
+    min-height: 100vh;
+    font-family: 'Segoe UI', sans-serif;
+    transition: background-color 0.5s, color 0.5s;
+  }
+  
+  .chart-area {
+    overflow-x: auto;
+  }
+  
+  .d3-tooltip {
+    position: absolute;
+    visibility: hidden;
+    font-size: 0.9rem;
+    pointer-events: none;
+  }
+  

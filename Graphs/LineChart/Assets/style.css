@@ -1,0 +1,35 @@
+body {
+  background: url('/homeAssets/world.svg') no-repeat center center fixed;
+  background-size: cover;
+  position: relative;
+  min-height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+  transition: background-color 0.5s, color 0.5s;
+}
+  
+  .d3-tooltip {
+    position: absolute;
+    visibility: hidden;
+    font-size: 0.9rem;
+    pointer-events: none;
+  }
+  
+  .chart-scroll-wrapper {
+    overflow-x: auto;
+    max-width: 100%;
+  }
+  
+  /* Prevent SVG from shrinking */
+  .chart-scroll-wrapper svg {
+    min-width: 900px;
+    max-width: 1400px;
+    height: auto;
+    display: block;
+  }
+  
+  @media (max-width: 768px) {
+    .chart-scroll-wrapper {
+      overflow-x: auto;
+    }
+  }
+  
